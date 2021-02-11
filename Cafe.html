@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Café</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+  </head>
+
+<body style="background-color:#ffe4c4">
+
+<nav style="background-color:#fef3d7; " class="navbar navbar-expand-lg navbar-light" >
+  <a class="navbar-brand" href="Cafe.html" >
+    <img src="coffee.png"  style="height:40px;width:40px;"alt="Split Café">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+</button>
+<div  class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+  <li class="nav-item active">
+    <a class="nav-link" href="Cafe.html">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Gallery.html">Gallery</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Menu </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+      <a class="dropdown-item" href="#">Coffee</a>
+      <a class="dropdown-item" href="#">Drinks</a>
+      <a class="dropdown-item" href="#">Desserts</a>
+    </div>
+  </li>
+</ul>
+</div>
+</nav>
+
+
+<style>
+
+.text-block {
+  position: absolute;
+  bottom: 80px;
+  color: #fef3d7;
+  background-color: #654321;
+  padding: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+.button{
+  border-radius:50%;
+  Width:40px;
+  height: 40px;
+  color: #ffe4c4;
+  background-color: #442d25;
+  border:#442d25;
+}
+
+.img{
+  width: 100%
+}
+
+
+.hvrbox:hover .hvrbox-layer_top{
+	opacity: 1;
+}
+
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 228, 196, 0.6);
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+</style>
+</head>
+
+<div>
+  <img src="Cafe.jpg"  style="filter: brightness(70%);"  class="img-fluid" alt="Split Café">
+  <div class="text-block">
+    <div class="figure">
+      <h2 class="display-1" ><i>SPLIT CAFÉ</i></h2>
+      <h4 style="text-align:center;"><b>Winter Discount 20%</b></h4>
+      <p style="text-align:center;"><i>What a beautiful sunrise</i></p>
+      <p style="text-align:center;">Paro:Bhutan</p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <div class="row">
+    <div class="col">
+      <img src="bye.jpg"  style="filter: brightness(70%)" class="container"alt="Split Café">
+    </div>
+
+  <div class="col">
+
+    <div id="accordion">
+      <button class="button" data-toggle="collapse" data-target="#collapseOne" >+</button>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          Lorem ipsum dolor text....
+        </div>
+  <br>
+  <br>
+      <button class="button collapsed" data-toggle="collapse" data-target="#collapseTwo">+</button>
+
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            Lorem ipsum dolor text....
+      </div>
+  <br>
+  <br>
+      <button class="button collapsed" data-toggle="collapse" data-target="#collapseThree" >+</button>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        Lorem ipsum dolor text....
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!---<div>
+  <div class="row">
+    <div class="col">
+      <img src="bye.jpg"  style="filter: brightness(70%)" class="container"alt="Split Café">
+    </div>
+
+  <div class="col">
+
+    <div id="accordion">
+      <button  data-toggle="collapse" data-target="#collapseOne" class="button">+</button>
+        <div id="collapseOne" class="collapse show">
+          Lorem ipsum dolor text....
+        </div>
+  <br>
+  <br>
+      <button data-toggle="collapse" data-target="#collapseTwo" class="button" >+</button>
+        <div id="collapseOne" class="collapse show">
+          Lorem ipsum dolor text....
+        </div>
+  <br>
+  <br>
+      <button data-toggle="collapse" data-target="#collapseThree"class="button">+</button>
+        <div id="collapseThree" class="collapse" >
+          Lorem ipsum dolor text....
+        </div>
+      </div>
+    </div>
+
+</div>-->
+
+<hr style="border: 1px solid #442d25;">
+
+<div class="container">
+    <div class="row">
+
+      <div class="col-sm">
+        <div class="hvrbox">
+          <img src="Affogato.jpg"  style="filter: brightness(70%);"  class="img" alt="Affogato">
+          <div class="hvrbox-layer_top">
+            <div class="hvrbox-text">Affogato</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="hvrbox">
+          <img src="Latte.jpg"  style="filter: brightness(70%);"  class="img" alt="Latte">
+          <div class="hvrbox-layer_top">
+            <div class="hvrbox-text">Latte</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="hvrbox">
+          <img src="Macchiato.jpg"  style="filter: brightness(70%);"  class="img" alt="Macchiato">
+          <div class="hvrbox-layer_top">
+            <div class="hvrbox-text">Macchiato</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <br>
+  <div class="row">
+
+    <div class="col-sm">
+      <div class="hvrbox">
+        <img src="Espresso.jpg"  style="filter: brightness(70%);"  class="img" alt="Espresso">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Espresso</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="hvrbox">
+        <img src="Americano.jpg"  style="filter: brightness(70%);"  class="img" alt="Americano">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Americano</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="hvrbox">
+        <img src="Cappuccino.jpg"  style="filter: brightness(70%);"  class="img" alt="Cappuccino">
+        <div class="hvrbox-layer_top">
+          <div class="hvrbox-text">Cappuccino</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<hr style="border: 1px solid #442d25;">
+
+
+<br>
+ <h1 class="display-3 text-center"><i>Events</i></h1>
+
+
+ <div class=" container">
+   <div class="float-left">
+     <div class="card" style="width:400px">
+       <h1 class="text-center">Lomba Special</h2>
+       <img class="card-img-top" src="lll.jpg" alt="Lomba" style="width:100%">
+       <div class="card-body">
+         <p class="card-text">Date: 14/12/2020</p>
+         <a href="#" class="btn btn-secondary">Learn More</a>
+       </div>
+     </div>
+   </div>
+    <div class="float-right">
+     <div class="card" style="length:700px; width:400px">
+       <h1 class="text-center">Losar Special</h2>
+       <img class="card-img-top" src="ll.jpg" alt="Losar" style="width:100%">
+       <div class="card-body">
+         <p class="card-text">Date: 12/02/2021</p>
+         <a href="#" class="btn btn-secondary">Learn More</a>
+       </div>
+      </div>
+
+   </div>
+</div>
+
+
+</body>
+</html>
